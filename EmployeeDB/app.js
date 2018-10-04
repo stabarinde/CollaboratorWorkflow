@@ -1,4 +1,10 @@
 /**
+<<<<<<< HEAD
+=======
+ *
+ * Testing Testing
+ * 
+>>>>>>> 32eb915cd6ffaf885c54015d324e06401c12daba
  * Module dependencies.
  */
 
@@ -43,7 +49,10 @@ app.get('/', function(req, res){
   });
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 32eb915cd6ffaf885c54015d324e06401c12daba
 //new employee
 app.get('/employee/new', function(req, res) {
     res.render('employee_new', {
