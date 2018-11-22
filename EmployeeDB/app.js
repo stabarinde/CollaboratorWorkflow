@@ -7,6 +7,8 @@
  */
 
 // new change for pre-commit review
+//
+// I'm just going to add some commentary
 
 var express = require('express')
   , routes = require('./routes')
