@@ -6,8 +6,7 @@
  * Module dependencies.
  */
 
-//Collab changes
-
+// new change for pre-commit review
 
 var express = require('express')
   , routes = require('./routes')
