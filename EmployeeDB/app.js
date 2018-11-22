@@ -2,15 +2,18 @@
  * Module dependencies.
  */
 
+//Collab changes
+
+
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
   , EmployeeProvider = require('./employeeprovider').EmployeeProvider;
-
+//Rudy's comment
 var app = express();
-
+// changed and changed back
 app.configure(function(){
   app.set('port', process.env.PORT || 3000);
   app.set('views', __dirname + '/views');
