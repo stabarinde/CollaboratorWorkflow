@@ -36,7 +36,7 @@ app.configure('development', function(){
 });
 
 var employeeProvider= new EmployeeProvider('localhost', 27017);
-/// These are the Routes
+/// These are the Voyages
 //Routes
 
 //index
