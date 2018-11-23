@@ -6,8 +6,12 @@
  * Module dependencies.
  */
 
+
+// new change for pre-commit review
+
 //Collab changes
 // This is a new branch for collaborator work
+
 
 var express = require('express')
   , routes = require('./routes')
@@ -37,7 +41,7 @@ app.configure('development', function(){
 });
 
 var employeeProvider= new EmployeeProvider('localhost', 27017);
-
+/// These are the Voyages
 //Routes
 
 //index
