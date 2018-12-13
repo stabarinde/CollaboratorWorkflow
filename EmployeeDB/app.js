@@ -78,7 +78,7 @@ app.post('/employee/new', function(req, res){
     });
 });
 
-// New Comment
+// Hello world
 //update an employee
 app.get('/employee/:id/edit', function(req, res) {
 	employeeProvider.findById(req.param('_id'), function(error, employee) {
