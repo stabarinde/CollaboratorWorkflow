@@ -59,6 +59,8 @@ app.get('/', function(req, res){
   });
 });
 
+// New Comment
+
 //new employee
 app.get('/employee/new', function(req, res) {
     res.render('employee_new', {
@@ -76,6 +78,7 @@ app.post('/employee/new', function(req, res){
     });
 });
 
+// New Comment
 //update an employee
 app.get('/employee/:id/edit', function(req, res) {
 	employeeProvider.findById(req.param('_id'), function(error, employee) {
