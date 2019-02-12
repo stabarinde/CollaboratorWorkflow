@@ -8,7 +8,17 @@
 
 
 // new change for pre-commit review
+
+// I'm just going to add some commentary
+// Adding an extra Comment
+// removal is not a good idea
+// Change for collaborator review
+// Additional Change
 //
+// Change for changes sake
+// To demonstrate code review
+
+=======
 
 //Collab changes
 // This is a new branch for collaborator work
@@ -21,6 +31,7 @@ var express = require('express')
   , path = require('path')
   , EmployeeProvider = require('./employeeprovider').EmployeeProvider;
 //Rudy's comment
+// remove
 var app = express();
 // changed and changed back
 app.configure(function(){
